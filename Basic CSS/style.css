@@ -1,0 +1,46 @@
+form {
+    width: 50%;
+    margin: 12px 50px;
+}
+
+.sub {
+    background-color: green;
+    display: block;
+    color: white;
+    width: 20%;
+    margin-left: 300px;
+}
+
+div>input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 12px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(164, 162, 162, 0.688);
+
+}
+
+div>label {
+    margin: 12px 12px;
+    font-weight: bold;
+    color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+div{
+    width: 100%;
+    background-color: #008b8b29;
+}
+
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border-color: #ccc; /* Change border color on hover */
+  box-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(128, 126, 0, 0.686);
+    color: black;
+    font-weight: bold;
+}
