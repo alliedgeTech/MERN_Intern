@@ -4,12 +4,15 @@ form {
 }
 
 .sub {
-    background-color: green;
+    background-color: #466347;
     display: block;
     color: white;
     width: 20%;
     margin-left: 300px;
-}
+    border-left-color:rgb(255, 162, 0);
+    /* border-left-style: dotted; */
+    border-left-width: 5px;
+  }
 
 div>input {
     display: block;
@@ -29,7 +32,7 @@ div>label {
 }
 div{
     width: 100%;
-    background-color: #008b8b29;
+    background-color: #008b8b29;    
 }
 
 
@@ -40,7 +43,23 @@ input[type="password"]:hover {
 }
 
 input[type="submit"]:hover {
-    background-color: rgba(128, 126, 0, 0.686);
+    background-color: rgba(255, 226, 8, 0.686);
     color: black;
     font-weight: bold;
+    border-left-color:rgb(111, 255, 0);
+    border-left-width: 5px;
+
+}
+
+p{
+    background-color: #466347;
+    color: white;
+    width: 50%;
+}
+p:hover{
+    text-transform: uppercase;
+    color: burlywood;
+    font-size: 15px;
+    text-shadow: 1px 1px;
+    font-style: italic;
 }
