@@ -1,0 +1,22 @@
+Flex - BOX
+display-flex
+flex-display-column | row
+gap:2rem
+
+flex-wrap: nowrep | wrap
+flex-grow : 1 em
+flex:1
+
+Grid - Box
+
+display-grid
+grid-template-row 
+grid-template-column : 100px 100px 100px 100px
+
+.item-1{
+  grid-row-start:
+ grid-row-end:
+ grid-column-start:
+grid-end-start:
+} 
+

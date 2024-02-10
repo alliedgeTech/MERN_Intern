@@ -1,0 +1,27 @@
+.container {
+    border: 1px solid black;
+    /* width: 50%; */
+    /* margin-left: 100px; */
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+ .item {
+    padding: 12px 12px;
+    width: 10%;
+    height: 10%;
+    color: red;
+    background-color: aqua;
+    border: 1px solid black;
+} 
+
+#item-2 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}

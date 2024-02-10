@@ -1,0 +1,15 @@
+.container{ 
+    border: 1px solid red !important;
+    display: grid;
+    /* grid-template-columns: 0.5fr 1fr 0.5fr 2fr */
+    /* gap: 1rem; */
+}
+
+.itm{
+    padding: 12px 12px;
+    width: 30%;
+    height: 10%;
+    color: black;
+    background-color: rgb(165, 241, 228);
+    border: 1px solid black;
+}
