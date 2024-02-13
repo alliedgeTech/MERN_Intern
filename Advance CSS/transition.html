@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+    #a{
+      width: 100px;
+      height: 100px;
+      animation-name: example;
+      animation-duration: 10s;
+      background:#FF671F;
+    }  
+    @keyframes example {
+        from {width: 20px;}
+        to {width: 100%;}
+    }    
+    #b{
+      width: 100px;
+      height: 100px;
+      animation-name: example2;
+      animation-duration: 10s;
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.141);
+    }  
+    @keyframes example2 {
+        from {width: 20px;}
+        to {width: 100%;}
+    }    
+    #c{
+        width: 100px;
+        height: 100px;
+        animation-name: example3;
+        animation-duration: 10s;
+        background-color: #046A38;
+    }  
+    @keyframes example3 {
+        from {width: 20px;}
+        to {width: 100%;}
+    }    
+    
+    </style>
+<body>
+    <h1>The transition Property</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+
+</body>
+
+</html>

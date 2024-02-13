@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.mydiv{
+        height: 100px;
+        width: 200px;
+        background-color: red;
+        border: 1px solid black;
+    }
+    #myDiv1{
+        height: 100px;
+        width: 200px;
+        background-color: rgb(246, 255, 0);
+        border: 1px solid black;
+        transform:translate(100px,200px);
+        /* transform: translate(50px,100px); */
+        
+    }
+    #myDiv1:hover{
+        /* transform: rotateX(180deg); */
+         /* transform: matrix(1, 0, 1, 1,1, 0);   */
+        /* transform:rotate(180deg) */
+    }
+   
+</style>
+<body>
+    
+<h1>The rotateX() Method</h1>
+
+<p>The rotateX() method rotates an element around its X-axis at a given degree.</p>
+
+<div class="container">
+    <div class="mydiv">
+        This a normal div element.
+        </div>
+        
+        <div id="myDiv1">
+        This div element is rotated 150 degrees.
+        </div>
+</div>
+
+</body>
+</html>
