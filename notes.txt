@@ -19,6 +19,25 @@ grid-template-column : 100px 100px 100px 100px
  grid-column-start:
 grid-end-start:
 } 
+ programming language
+Dynamically typed language
 
 
+Variable
 
+var - 2015 //cancel
+
+let -> 2015 ES6
+let
+redefine kar sakte hai
+redeclare
+const
+const c= "deep panchal"
+c="sanjsn"
+
+before 2015 use var after 2015 use let and const invention ES6
+let - not redeclare but redefine
+const - not redeclare but not redefine
+
+dynamically typed language
+convention for write variable camel case $,_,123 allowed

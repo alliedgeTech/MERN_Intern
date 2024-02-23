@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .brand-name {
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+    }
+    .navigation a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .login-btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+   /* Media Query for Mobile */
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+        .navigation {
+            /* display: none; */
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .navigation a {
+            display: none;
+            margin: 10px 0;
+             font-size: 12px;
+        }
+        .navigation {
+            margin-top: 10px;
+        }
+        body{
+            background-color: #4CAF50;
+        }
+    }
+</style> 
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="brand-name">Alliedge</a>
+            <nav class="navigation">
+                <a href="https://www.alliedge.in">About</a>
+                <a href="https://www.alliedge.in">Contact Us</a>
+                <a href="#" class="login-btn">Login</a>
+                <span id="toggle">=</span>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
