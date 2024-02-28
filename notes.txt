@@ -41,3 +41,21 @@ const - not redeclare but not redefine
 
 dynamically typed language
 convention for write variable camel case $,_,123 allowed
+
+
+for(let i=0; i<=50;i++) {
+
+  //logic
+}
+
+ini condition
+while(end-condition){
+  //logic
+  //incre/decre
+}
+
+init condition
+do{
+  //logic
+  incre/decre
+}while(end-condition)
