@@ -53,3 +53,27 @@ for (let i of companyName)
   sNO++;
 }
 console.log(sNO)
+
+
+// 1 -- 100 counting print 
+// console.log("EVen number print")
+// for (let j=1;j<=1000;j++) {
+//   if(j%2==0){
+//   console.log(j)
+//   }
+// }
+
+// var ans = prompt("Enter a Deep 1")
+// var ans1 = prompt("Enter a Deep 2")
+// console.log("Your answer : ",ans+ans1)
+// console.log("Your answer : ",parseInt(ans)+ ans1)
+
+
+//--------------Template Literals - Backtics---------------------------------------
+
+//  let x = prompt("Enter Name")
+//  let y = prompt("Enter Price")
+
+//  console.log("I Have",x,"and Price is : ",y)
+// console.log(`I Have ${x} and Price is : ${y}`)
+

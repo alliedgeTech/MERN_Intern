@@ -59,3 +59,13 @@ do{
   //logic
   incre/decre
 }while(end-condition)
+
+
+Template Literals - Backtics
+String
+length
+str[o] , string method upper,lower,trim(remove space)
+str.slice(startindex.end index)
+str1.concat(str2)
+str1.replace("","")
+str.charAT(indexNo) 
