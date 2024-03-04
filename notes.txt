@@ -69,3 +69,34 @@ str.slice(startindex.end index)
 str1.concat(str2)
 str1.replace("","")
 str.charAT(indexNo) 
+
+---------Array Collection of data-----------linear --index base
+
+Looping over the Array collection 
+For Loop
+for-in
+for-of
+
+---------------Array Methods--------------------------------
+
+push() -> Add to end  of the Array
+pop() -> Remove from end of the Array
+toString() -> convert to String
+concat() -> 
+shift() -> remove element to start& return of the Array
+unshift() -> add from start of the Array
+slice(startINX,EndInX) -> return piece of the Array
+start basic concept of function  & return concept
+
+//---------------function ---------------
+
+function declaration
+function logic
+fuction call
+
+function functionName()
+{
+  //logic
+}
+
+functionName()

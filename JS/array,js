@@ -1,0 +1,42 @@
+console.log("Learn about Array!!!!!!")
+
+let ary = [12,23,45,67,"Deep","Alliedge",43,]
+
+//console.log(ary[0]);
+ //console.log(ary[1]);
+//console.log(ary[2]);
+//console.log(ary[3]);
+//console.log(ary[4]);
+//console.log(ary[5]);
+//console.log(ary[6]);
+//console.log(ary[7]);
+
+
+//--------------For loop---------------
+for (let i=1;i<ary.length;i++)
+{
+//    console.log(ary[i])
+}
+//console.log(`Loop terminated this point ${ary.length}`);
+//------------for-loop--------------
+
+for (let array of ary)
+{
+    //console.log(array);
+}
+
+for (let i in ary)
+{
+ //   console.log("with for in loop",ary[i]);
+}
+
+// let a= prompt("Enter the number");
+// console.log("a",a)
+// console.log(typeof a);
+
+// if(a>10){
+//     console.log("this is above 10");
+// }
+// else{
+//     console.log("this is below 10");
+// }
