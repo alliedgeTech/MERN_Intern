@@ -100,3 +100,44 @@ function functionName()
 }
 
 functionName()
+
+functiona  Name -> return 
+
+Arrow fnx , syntex ,modern JS function
+Callback like a with ForEach
+
+lat arr=[]
+
+arr.forEach(function printVal(){
+  console.log("hello world")
+})// this is aboout call back fnx -> fnx within pass fnx
+// with Arrow fnx
+
+let nums=[12,12,12]
+let cal =(num)=>{
+ console.log(num*num);
+}
+
+nums.forEach(cal)
+
+
+-//----------------------------------------------------------------
+
+//--------------------------------------- arrow Function-----------------------------------
+
+MOdern JavaScript function
+
+function Sum()
+{
+  //logc
+}
+
+Sum()
+
+
+Sum()=>{
+  
+}
+
+
+

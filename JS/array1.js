@@ -25,5 +25,7 @@ console.log(ary);
 
 //----------------slice----------------------
 
-let ans= ary.slice(2,5)
-console.log(ans);
+// let ans= ary.slice(2,5)
+// console.log(ans);
+ 
+
