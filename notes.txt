@@ -120,6 +120,8 @@ let cal =(num)=>{
 
 nums.forEach(cal)
 
+// Map and filter method
+// reduce fir average pre and current 
 
 -//----------------------------------------------------------------
 
