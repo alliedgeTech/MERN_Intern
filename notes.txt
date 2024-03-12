@@ -133,13 +133,27 @@ function Sum()
 {
   //logc
 }
-
 Sum()
-
-
-Sum()=>{
-  
+Sum()=>{  
 }
 
+//---------------Today 
+HTML,CSS,JS intro , linking file with HTML , expkanation about element ,console
 
+DOM -> window -> documetn -> HTML
+js to access html with the help of console.log(window.document)
+like a - >  document.body.style.background="red"
+DOM uses -> dynamically changes and manuplation
+
+DOM
+let a= document.getElementById("")
+console.log(a)
+console.dir(a)
+
+for class
+let b= document.getElementsByClassName("")
+console.dir(b)
+
+for tag
+let c= document.getElementsByTagName("")
 

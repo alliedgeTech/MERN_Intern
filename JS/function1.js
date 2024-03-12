@@ -6,11 +6,11 @@ console.log("callback function")
 // Calc(3,2)
 
 
-let nums = [1,2,3,4,5,6,7,8,9,10]
+// let nums = [1,2,3,4,5,6,7,8,9,10]
 
 
 // let a = nums.forEach((e)=>{
-    // console.log("--->",e/2);
+//     console.log("--->",e/2);
 // })
 // console.log(a);
 // let a= "abc".toUpperCase()
