@@ -123,7 +123,7 @@ nums.forEach(cal)
 // Map and filter method
 // reduce fir average pre and current 
 
--//----------------------------------------------------------------
+//----------------------------------------------------------------
 
 //--------------------------------------- arrow Function-----------------------------------
 
@@ -157,3 +157,12 @@ console.dir(b)
 for tag
 let c= document.getElementsByTagName("")
 
+QuerySelectors/QuerySelectorsAll(Tag/.class/#id)
+
+DOM manuplation
+getvalue ans set value
+
+Propereties
+TagName,innerText,innterHTML,textContent 
+
+concept about node,tree(parent ,child,sibling)                   

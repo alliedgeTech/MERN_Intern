@@ -25,3 +25,4 @@ const RemoveChange =()=>{
     document.getElementsByClassName("head-class")[2].style.color="black"
     document.getElementsByClassName("head-class")[2].style.background="white"
 }
+
