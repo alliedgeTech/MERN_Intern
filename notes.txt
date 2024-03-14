@@ -166,3 +166,49 @@ Propereties
 TagName,innerText,innterHTML,textContent 
 
 concept about node,tree(parent ,child,sibling)                   
+
+getAttribute/set getAttribute
+set and change class name 
+ket para = document.QuerySelectors("p)
+console.log(para.getAttribute("class"))
+
+visibilty of box click to display and hide
+
+
+//-------------------------Create element in the sense Add element
+
+let a =  document.createElement("TagName")
+and set data
+a.innterText="cdsjfbc"
+console.log(a)
+
+
+insert Data base on four Methods | first create div box and after explanation about four methods
+//Insert element
+node.append(el)
+node.prepend(el)
+node.before(el)
+node.after(el)
+
+
+Example : 
+
+let newBtn = document.createElement("button");
+newBtn.innerText="AAAAAAAAAAA"
+console.log(newBtn)
+
+let target = document.QuerySelectors("div")// target area for append data
+target.append(newBtn);
+target.prepend(newBtn);
+target.after(newBtn);
+target.before(newBtn);
+
+
+// ----------Delete element---------------
+access data
+
+let a= document.QuerySelectors("div)
+a.remove()
+
+
+//--------------Prepare from your side what is appendChild and removeChild
