@@ -14,10 +14,10 @@ grid-template-row
 grid-template-column : 100px 100px 100px 100px
 
 .item-1{
-  grid-row-start:
+ grid-row-start:
  grid-row-end:
  grid-column-start:
-grid-end-start:
+ grid-end-start:
 } 
  programming language
 Dynamically typed language
@@ -212,3 +212,7 @@ a.remove()
 
 
 //--------------Prepare from your side what is appendChild and removeChild
+
+Event
+
+Event Listner -> addEventListener
