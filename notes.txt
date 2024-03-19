@@ -215,4 +215,19 @@ a.remove()
 
 Event
 
-Event Listner -> addEventListener
+Event Listner -> addEventListener 
+let btn1= document.QuerySelectors("p")
+btn1.addEventListener("click",()=>{
+  //logic
+})  
+
+// -------removeEventListener
+
+// dark mode and light mode concept
+// add class for dynamic so document.querySelector("body").classList.add("classname")
+
+
+
+//-------------------------Class in JS (access class not without using his aboject let obj = new classname())
+//-------------------------Constructor in JS
+//-------------------------inheritance in JS

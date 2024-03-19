@@ -1,0 +1,14 @@
+.dark{
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    transition: 0.5s;
+}
+.light{
+   background-color: #fff;
+    color: #000000;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    transition: 0.5s;
+}
