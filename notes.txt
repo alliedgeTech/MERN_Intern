@@ -231,3 +231,55 @@ btn1.addEventListener("click",()=>{
 //-------------------------Class in JS (access class not without using his aboject let obj = new classname())
 //-------------------------Constructor in JS
 //-------------------------inheritance in JS
+
+
+//-------------------------Error handling 
+try{
+
+}catch(err){
+
+}
+
+Synchronous
+Asynchronous
+callback hell
+Promise
+---------------
+
+let promise = new Promise((resolve, reject) =>{
+  console.log("I am Promise")
+  resolve(123)
+})
+
+// create a new promise
+// use of a promise
+
+const getPromise = ()=>{
+   return new promise ((resolve,reject)=>{
+          console.log("I am a promise")
+          resolve("Success")
+    })
+}
+let promise  = getPromise()
+
+promise.then(()=>{
+ console.log("Promise is Success")
+}).catch(()=>{
+ console.log("Promise is Failed")
+})
+
+// async await -> modift to promises and promise hell (then and catch)
+
+function APi(){
+  return new Promise((resolve,reject)=>{
+   setTimeout(()=>{
+        console.log("Promise is Success")
+      resolve(200)
+   },2000)
+  })
+}
+
+async function getData =()=>{
+  await Api() //1st call
+  await Api() //2st call
+}
