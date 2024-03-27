@@ -270,6 +270,13 @@ promise.then(()=>{
 
 // async await -> modift to promises and promise hell (then and catch)
 
+async function hello()
+{
+
+  console.log("Hello")
+  //return promise
+}
+
 function APi(){
   return new Promise((resolve,reject)=>{
    setTimeout(()=>{
@@ -283,3 +290,5 @@ async function getData =()=>{
   await Api() //1st call
   await Api() //2st call
 }
+
+// Fetch API
